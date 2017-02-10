@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Shaw and Partners: Full-stack Challenge</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <span class="navbar-brand">Shaw and Partners: Full-stack Challenge (by Maximiliano Pessoa Junior)</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="starter-template" style="padding-top: 50px;">
+            <h2>Enter some word, phrase or number:</h2>
+            <form method="get">
+                <input type="text" class="form-control" name="word"><br>
+                <input type="submit" class="btn btn-primary" value="Test">
+            </form>
+            
+            <h1>{{ strParam }}</h1><br>
+            
+            <hr />
+            
+            <p class="lead">
+                A palindrome is a word, phrase, number, or another sequence of characters which reads the same backward or forward.
+                Allowances may be made for adjustments to capital letters, punctuation, and word dividers.
+            </p>
+            <p class="lead">
+                <h3>Examples</h3>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Input</th>
+                        <th>Result</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>ABA</td>
+                        <td>IS A PALINDROME</td>
+                    </tr>
+                    <tr>
+                        <td>MACACO</td>
+                        <td>IS NOT A PALINDROME</td>
+                    </tr>
+                    <tr>
+                        <td>A MAN A PLAN A CANAL PANAMA</td>
+                        <td>IS A PALINDROME</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
